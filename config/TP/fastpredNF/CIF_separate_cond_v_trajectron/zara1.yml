@@ -1,0 +1,13 @@
+MODEL:
+  TYPE: fastpredNF_CIF_separate_cond
+  ENCODER_TYPE: trajectron
+
+DATA:
+  DATASET_NAME: "zara1"
+  TP:
+    PRED_STATE: 'state_v'
+    ACCEPT_NAN: True
+    
+SOLVER:
+  USE_SCHEDULER: True
+  WEIGHT_DECAY: 0.0

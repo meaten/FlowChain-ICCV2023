@@ -1,0 +1,8 @@
+MODEL:
+  TYPE: GT
+
+DATA:
+  DATASET_NAME: "zara2"
+  TP:
+    STATE: state_p
+    PRED_STATE: state_p
