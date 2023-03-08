@@ -96,7 +96,7 @@ nl = 0
 l = 0
 
 raw_path = './src/data/TP/raw_data'
-data_folder_name = '/home-local/maeda/fastpredNF/data/TP/processed_data/'
+data_folder_name = './src/data/TP/processed_data/'
 
 maybe_makedirs(data_folder_name)
 

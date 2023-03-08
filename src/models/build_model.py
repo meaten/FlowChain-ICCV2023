@@ -5,8 +5,6 @@ import torch.nn as nn
 from copy import deepcopy
 from pathlib import Path
 from models.TP.TP_models import Build_TP_model
-from models.VP.VP_models import Build_VP_model
-from models.MP.MP_models import Build_MP_model
 
 
 def Build_Model(cfg: CfgNode) -> nn.Module:
@@ -17,10 +15,6 @@ def Build_Model(cfg: CfgNode) -> nn.Module:
 
     if cfg.DATA.TASK == "TP":
         return Build_TP_model(cfg)
-    elif cfg.DATA.TASK == "VP":
-        return Build_VP_model(cfg)
-    elif cfg.DATA.TASK == "MP":
-        return Build_MP_model(cfg)
     else:
         raise(ValueError)
 

@@ -3,10 +3,13 @@ tqdm
 numpy
 scipy
 torch
+optuna
+POT
 
 dill
 ncls
 orjson
+joblib
 
 matplotlib
 seaborn
