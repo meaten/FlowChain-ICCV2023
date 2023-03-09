@@ -17,7 +17,8 @@ For example of ETH split,
 python src/main --config_file config/TP/FlowChain/CIF_separate_cond_v_trajectron/eth.yml --mode train
 ```
 
-You can also find our pretrained models [here](https://drive.google.com/drive/folders/1j1Uu0IX21D7UJ4b7M8FsClMk3l1YVzQe?usp=share_link)
+You can also find our pretrained models [here](https://drive.google.com/drive/folders/1bA0ut-qrgtr8rV5odUEKk25w9I__HjCY?usp=share_link)
+Just download the 'output' folder to the root of this repo, and you are ready to test these models.
 
 # Testing
 without visualization
