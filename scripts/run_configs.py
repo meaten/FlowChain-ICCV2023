@@ -21,12 +21,10 @@ def run_parallel(args: argparse.Namespace) -> None:
         base_cmds = [["python3", "src/main.py", "--mode", "train"], ["python3", "src/main.py", "--mode", "test", "--visualize"]]
     
 
-    config_files = Path(args.config_dir).rglob("*.yml")
+    config_files = Path(args.config_dir).rglob("simfork.yml")
     
     cmds = []
     for base, c in itertools.product(base_cmds, config_files):
-        if "sim" in c.name:
-            continue
         cmd = base + [
                     "--gpu",
                     args.gpu,
