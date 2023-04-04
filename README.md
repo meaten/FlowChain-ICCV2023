@@ -29,5 +29,5 @@ python src/main --config_file config/TP/FlowChain/CIF_separate_cond_v_trajectron
 
 with visualization
 ```
-python src/main --config_file config/TP/FlowChain/CIF_separate_cond_v_trajectron/eth.yml --mode test
+python src/main --config_file config/TP/FlowChain/CIF_separate_cond_v_trajectron/eth.yml --mode test --visualize
 ```
