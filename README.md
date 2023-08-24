@@ -1,5 +1,5 @@
 # FlowChain
-The repository contains the code for [Fast Inference and Update of Probabilistic Density Estimation on Trajectory Prediction](url) by Takahiro Maeda and Norimichi Ukita.
+The repository contains the code for [Fast Inference and Update of Probabilistic Density Estimation on Trajectory Prediction](https://arxiv.org/abs/2308.08824) by Takahiro Maeda and Norimichi Ukita.
 
 # Dependencies
 ```
